@@ -1,0 +1,10 @@
+alias green="blink1-tool -l 0 --green"
+alias red="blink1-tool -l 0 --red"
+alias focus30="focus 30 3"
+alias focus60="focus 60 6"
+alias focus90="focus 90 9"
+alias focus120="focus 120 12"
+alias myip="curl https://ipinfo.io/ip"
+alias newlog="devlog && z atlas && subl ."
+alias archive="cd ~/Dropbox/notes/devlog-atlas && mv *.md recent/ && mv recent/backlog.md . && mv recent/kaizen.md ."
+alias git-clean='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
